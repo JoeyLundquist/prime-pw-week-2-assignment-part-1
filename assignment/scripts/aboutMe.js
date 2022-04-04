@@ -61,7 +61,7 @@ if (pets < allowedPets){
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
-let mostPets = 0;
+let mostPets;
 if (pets > friendsPets){
     mostPets = pets;
 }else {
