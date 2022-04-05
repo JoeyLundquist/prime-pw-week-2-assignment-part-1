@@ -13,7 +13,7 @@ let luckyNumber = Math.floor(Math.random()*4+1); //I made this a random number b
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
-console.log('My name is '+ fullName +' and I think '+ luckyNumber + ' is a winner!');
+console.log('My name is ' + fullName +' and I think ' + luckyNumber + ' is a winner!');
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 let adventurous = true;
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
@@ -37,9 +37,9 @@ if (adventurous) {
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 if (luckyNumber == 2 && adventurous){
-    console.log('Roll the dice!')
+    console.log('Roll the dice!');
 }else {
-    console.log('Not this time!')
+    console.log('Not this time!');
 };//added an else statement incase my random number isn't 2 for testing purposes..
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -50,9 +50,9 @@ if (luckyNumber == 2 && adventurous){
 if (pets < allowedPets){
     console.log('I can have more pets!');
 }else if (pets == allowedPets){
-    console.log('I have enough pets.')
+    console.log('I have enough pets.');
 }else {
-    console.log('Oh no, I have to many pets!')
+    console.log('Oh no, I have to many pets!');
 };
 // STRETCH GOALS:
 
@@ -90,6 +90,6 @@ switch(luckyNumber){
 };
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 let feelingAdventurous = adventurous? "Adventures are great!" : "How about we stay home?";
-console.log(feelingAdventurous)
+console.log(feelingAdventurous);
 
 
